@@ -96,7 +96,7 @@ class OverclockingGUI:
         self.update_processes() # Process list
 
     def setup_gui(self):
-        self.master.title("PyCPU Control Center")
+        self.master.title("Vortex")
         self.master.geometry("1280x800")
         
         # Create Notebook with six tabs: Info, Monitor, Overclock, Processes, Network, GPU
